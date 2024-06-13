@@ -1,53 +1,78 @@
-﻿namespace DreamRestBeds.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace DreamRestBeds.Models
 {
     public class Bads
     {
         public int Id { get; set; }
 
+        [Display(Name = "Name")]
         public string? Name { get; set; }
 
+        [Display(Name = "Material")]
         public string? Material { get; set; }
 
+        [Display(Name = "Mattress")]
         public string? Mattress { get; set; }
 
+        [Display(Name = "Color")]
         public string? Color { get; set; }
 
+        [Display(Name = "Price")]
         public decimal Price { get; set; }
 
+        [Display(Name = "Warranty")]
         public string? Warranty { get; set; }
 
+        [Display(Name = "Country of Origin")]
         public string? CountryOfOrigin { get; set; }
 
+        [Display(Name = "Assembly Required")]
         public bool AssemblyRequired { get; set; }
 
+        [Display(Name = "Installation Required")]
         public bool InstallationRequired { get; set; }
 
+        [Display(Name = "Durability")]
         public string? Durability { get; set; }
 
+        [Display(Name = "Design")]
         public string? Design { get; set; }
 
+        [Display(Name = "Support")]
         public string? Support { get; set; }
 
+        [Display(Name = "Feature")]
         public string? Feature { get; set; }
 
-        public int MinLength { get; set; } // in cm
+        [Display(Name = "Min Length (cm)")]
+        public int MinLength { get; set; }
 
-        public int MaxLength { get; set; } // in cm
+        [Display(Name = "Max Length (cm)")]
+        public int MaxLength { get; set; }
 
-        public int Height { get; set; } // in cm
+        [Display(Name = "Height (cm)")]
+        public int Height { get; set; }
 
-        public int BedWidth { get; set; } // in cm
+        [Display(Name = "Bed Width (cm)")]
+        public int BedWidth { get; set; }
 
-        public int MaxLoad { get; set; } // in kg
+        [Display(Name = "Max Load (kg)")]
+        public int MaxLoad { get; set; }
 
-        public int MattressLength { get; set; } // in cm
+        [Display(Name = "Mattress Length (cm)")]
+        public int MattressLength { get; set; }
 
-        public int MattressWidth { get; set; } // in cm
+        [Display(Name = "Mattress Width (cm)")]
+        public int MattressWidth { get; set; }
 
-        public string? PictureUrl { get; set; } // URL of the bed picture
+        [Display(Name = "Picture")]
+        public string? PictureUrl { get; set; }
 
-        public string? SizeType { get; set; } // Size type (e.g., Twin, Full, Queen, King)
+        [Display(Name = "Size Type")]
+        public string? SizeType { get; set; }
 
-        public string? Description { get; set; } // Description of the bed
+        [Display(Name = "Description")]
+        public string? Description { get; set; }
     }
 }
