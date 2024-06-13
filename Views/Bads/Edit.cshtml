@@ -1,0 +1,144 @@
+﻿@model DreamRestBeds.Models.Bads
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Bads</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Material" class="control-label"></label>
+                <input asp-for="Material" class="form-control" />
+                <span asp-validation-for="Material" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mattress" class="control-label"></label>
+                <input asp-for="Mattress" class="form-control" />
+                <span asp-validation-for="Mattress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Color" class="control-label"></label>
+                <input asp-for="Color" class="form-control" />
+                <span asp-validation-for="Color" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Warranty" class="control-label"></label>
+                <input asp-for="Warranty" class="form-control" />
+                <span asp-validation-for="Warranty" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CountryOfOrigin" class="control-label"></label>
+                <input asp-for="CountryOfOrigin" class="form-control" />
+                <span asp-validation-for="CountryOfOrigin" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="AssemblyRequired" /> @Html.DisplayNameFor(model => model.AssemblyRequired)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="InstallationRequired" /> @Html.DisplayNameFor(model => model.InstallationRequired)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Durability" class="control-label"></label>
+                <input asp-for="Durability" class="form-control" />
+                <span asp-validation-for="Durability" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Design" class="control-label"></label>
+                <input asp-for="Design" class="form-control" />
+                <span asp-validation-for="Design" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Support" class="control-label"></label>
+                <input asp-for="Support" class="form-control" />
+                <span asp-validation-for="Support" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Feature" class="control-label"></label>
+                <input asp-for="Feature" class="form-control" />
+                <span asp-validation-for="Feature" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MinLength" class="control-label"></label>
+                <input asp-for="MinLength" class="form-control" />
+                <span asp-validation-for="MinLength" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaxLength" class="control-label"></label>
+                <input asp-for="MaxLength" class="form-control" />
+                <span asp-validation-for="MaxLength" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Height" class="control-label"></label>
+                <input asp-for="Height" class="form-control" />
+                <span asp-validation-for="Height" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BedWidth" class="control-label"></label>
+                <input asp-for="BedWidth" class="form-control" />
+                <span asp-validation-for="BedWidth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaxLoad" class="control-label"></label>
+                <input asp-for="MaxLoad" class="form-control" />
+                <span asp-validation-for="MaxLoad" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MattressLength" class="control-label"></label>
+                <input asp-for="MattressLength" class="form-control" />
+                <span asp-validation-for="MattressLength" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MattressWidth" class="control-label"></label>
+                <input asp-for="MattressWidth" class="form-control" />
+                <span asp-validation-for="MattressWidth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PictureUrl" class="control-label"></label>
+                <input asp-for="PictureUrl" class="form-control" />
+                <span asp-validation-for="PictureUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SizeType" class="control-label"></label>
+                <input asp-for="SizeType" class="form-control" />
+                <span asp-validation-for="SizeType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

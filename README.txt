@@ -16,3 +16,17 @@ Created MVC aplication.
 
 1612
 Aplication has been uploaded in github.
+
+2024/06/13
+
+0912
+added bads model
+
+0916
+added Scaffold Bads pages
+
+0920
+Migrated the database and update database
+
+0923
+Tested, "Its works!"

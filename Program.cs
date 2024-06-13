@@ -1,8 +1,11 @@
-using DreamRestBeds.Data;
+﻿using DreamRestBeds.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<DreamRestBedsContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DreamRestBedsContext") ?? throw new InvalidOperationException("Connection string 'DreamRestBedsContext' not found.")));
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
