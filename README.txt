@@ -6,27 +6,31 @@ Aditya, Haidir, Akhil
 
 UTC
 1601
-Created Company name. The name is DreamRest Beds
+Created Company name. The name is DreamRest Beds.
 
 1606
-Created company logo.
-
-1610
-Created MVC aplication.
+Created an ASP.NET Core 7.0 MVC application with the product "Bed" using Visual Studio 2022. Then we included individual user account authentication. Created a logo for our company. Ran the application successfully.
 
 1612
-Aplication has been uploaded in github.
+Then we pushed our application to the GitHub account of Haider and he made his link public so that all the members of the team could access the project.
+https://github.com/haidirstclair/DreamRestBeds
+
+1620
+Cloned each individual's system and confirmed that the application is successfully running in every system.
 
 2024/06/13
 
-0912
-added bads model
+1030
 
-0916
-added Scaffold Bads pages
+Modified the title of the project page as "Beds" with a link to navigate to the product catalog page. For this, we added added Beds models and Scaffold Beds pages. Ran the application successfully.
+URL 
+https://localhost:7094/bads
 
-0920
-Migrated the database and update database
+1100
+Migrated the database and update database.
 
-0923
-Tested, "Its works!"
+1130
+We added an additional link to an 'About Us' page regarding our company "DreamRest Beds" with all our details of the company and products. Ran the application successfully.
+URL
+https://localhost:7094/Home/AboutUs
+
