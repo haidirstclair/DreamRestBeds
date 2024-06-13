@@ -27,10 +27,20 @@ URL
 https://localhost:7094/bads
 
 1100
-Migrated the database and update database.
+Migrated the database and updated the database. From the SQL Server Object Explorer, we confirmed the database.
+<Update-Database -Context DreamRestBedsContext>
 
 1130
-We added an additional link to an 'About Us' page regarding our company "DreamRest Beds" with all our details of the company and products. Ran the application successfully.
+We added a link to an 'About Us' page regarding our company "DreamRest Beds" with all our details of the company and products. Ran the application successfully.
 URL
 https://localhost:7094/Home/AboutUs
 
+1200
+We customized our project to include product images, and modifications of the default style, present in the project.
+
+1230
+Added 10 products to the when seeding the database. Ran the application and found that it was successful.
+URL
+
+1300
+Completed the README file for the project. and synchronized the updates which were made.
