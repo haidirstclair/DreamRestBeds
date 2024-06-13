@@ -41,6 +41,7 @@ We customized our project to include product images, and modifications of the de
 1230
 Added 10 products to the when seeding the database. Ran the application and found that it was successful.
 URL
+https://localhost:7094/Bads
 
 1300
 Completed the README file for the project. and synchronized the updates which were made.

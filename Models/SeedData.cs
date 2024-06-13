@@ -67,7 +67,7 @@ namespace DreamRestBeds.Models
                 MaxLoad = 350,
                 MattressLength = 210,
                 MattressWidth = 180,
-                PictureUrl = "https://example.com/images/comfort-king.jpg",
+                PictureUrl = "https://i5.walmartimages.com/asr/19b1c466-e19a-4d2f-a80f-ecc46bc10bea_1.4f44873220eecc077620ede5d8fd3fff.jpeg",
                 SizeType = "King",
                 Description = "A luxurious king bed with a durable metal frame and firm spring mattress, perfect for any bedroom."
             },
@@ -94,7 +94,7 @@ namespace DreamRestBeds.Models
                 MaxLoad = 200,
                 MattressLength = 190,
                 MattressWidth = 90,
-                PictureUrl = "https://example.com/images/cozy-twin.jpg",
+                PictureUrl = "https://images.furnituredealer.net/img/products/daniels_amish/color/manchester%2088_30-8813%2b33%2b03-b1.jpg",
                 SizeType = "Twin",
                 Description = "A cozy twin bed with a composite wood frame and foam mattress, ideal for kids and guests."
             },
@@ -121,7 +121,7 @@ namespace DreamRestBeds.Models
                 MaxLoad = 280,
                 MattressLength = 200,
                 MattressWidth = 140,
-                PictureUrl = "https://example.com/images/luxury-full.jpg",
+                PictureUrl = "https://images.furnituredealer.net/img/products/signature_design_by_ashley/color/baystorm_b221-84s%2B87%2B89%2B2x50-b1.jpg",
                 SizeType = "Full",
                 Description = "A luxurious full bed with a leather frame and hybrid mattress, featuring integrated LED lighting."
             },
@@ -148,7 +148,7 @@ namespace DreamRestBeds.Models
                 MaxLoad = 180,
                 MattressLength = 190,
                 MattressWidth = 90,
-                PictureUrl = "https://example.com/images/classic-twin.jpg",
+                PictureUrl = "https://i5.walmartimages.com/asr/63f912c0-7e6b-4efc-b86a-4786265b35d5.5060363bb2f669cbc3e368f1c2446aad.jpeg",
                 SizeType = "Twin",
                 Description = "A classic twin bed made of pine wood with an innerspring mattress, ideal for a traditional bedroom."
             },
@@ -175,7 +175,7 @@ namespace DreamRestBeds.Models
                 MaxLoad = 300,
                 MattressLength = 200,
                 MattressWidth = 140,
-                PictureUrl = "https://example.com/images/modern-full.jpg",
+                PictureUrl = "https://media.istockphoto.com/id/1453505460/photo/3d-illustration-of-a-comfortable-bed-on-a-white-background.webp?b=1&s=170667a&w=0&k=20&c=f7NsXkMVulu-fUblJsBLzuJ8scWyeP-6-hgdOPUbpxI=",
                 SizeType = "Full",
                 Description = "A modern full bed with a combination of metal and wood frame and gel memory foam mattress, featuring USB ports."
             },
@@ -202,7 +202,7 @@ namespace DreamRestBeds.Models
                 MaxLoad = 300,
                 MattressLength = 200,
                 MattressWidth = 160,
-                PictureUrl = "https://example.com/images/rustic-queen.jpg",
+                PictureUrl = "https://i5.walmartimages.com/asr/abbcdbaf-58be-4292-b8cf-0fd91d3f3674.273abad0510928f903f0a7df20e76674.jpeg",
                 SizeType = "Queen",
                 Description = "A rustic queen bed made from reclaimed wood with a latex mattress, featuring built-in nightstands."
             },
@@ -229,7 +229,7 @@ namespace DreamRestBeds.Models
                 MaxLoad = 350,
                 MattressLength = 210,
                 MattressWidth = 180,
-                PictureUrl = "https://example.com/images/elegant-king.jpg",
+                PictureUrl = "https://images.furnituredealer.net/img/products/coaster/color/upholstered%20beds%20-%20coaster_300260q-b.jpg",
                 SizeType = "King",
                 Description = "An elegant king bed with a mahogany frame and pocket spring mattress, featuring a canopy."
             },
@@ -256,7 +256,7 @@ namespace DreamRestBeds.Models
                 MaxLoad = 250,
                 MattressLength = 200,
                 MattressWidth = 140,
-                PictureUrl = "https://example.com/images/minimalist-platform.jpg",
+                PictureUrl = "https://i.pinimg.com/originals/aa/a8/98/aaa898ff063ec9f7121c5b2d45f405fe.jpg",
                 SizeType = "Full",
                 Description = "A minimalist platform bed made from bamboo with a futon mattress, designed to be eco-friendly."
             },
@@ -283,7 +283,7 @@ namespace DreamRestBeds.Models
                 MaxLoad = 250,
                 MattressLength = 190,
                 MattressWidth = 140,
-                PictureUrl = "https://example.com/images/contemporary-sofa.jpg",
+                PictureUrl = "https://images.furnituredealer.net/img/products/artisan__post/color/cool%20rustic-1795312347_172-557%2B050b%2B502%2B555t-b1.jpg",
                 SizeType = "Full",
                 Description = "A contemporary sofa bed with a fabric and metal frame and foam mattress, convertible from sofa to bed."
             }
