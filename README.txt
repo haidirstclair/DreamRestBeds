@@ -41,8 +41,9 @@ https://localhost:7094/Home/AboutUs
 
 1200
 We customized our project to include product images, and modifications of the default style, present in the project. We had an issue
-in inseerting an images. But we edited the SeedData.cs, and then deleted the contents from the table. Ran the program and it was
-successful.
+in inseerting an images. But we edited the SeedData.cs, and then deleted the contents from the table.Later on we found a new background image and we updated it.
+Ran the program and it was
+successful. 
 https://localhost:7094/Bads
 
 
