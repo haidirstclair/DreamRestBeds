@@ -2,6 +2,10 @@
 Members:
 Aditya, Haidir, Akhil
 
+Note:
+After cloning this project please make sure you run this command in NuGet Package Manager Console:
+"Update-Database -Context DreamRestBedsContext"
+
 2024/06/06
 
 UTC
@@ -12,7 +16,7 @@ Created Company name. The name is DreamRest Beds.
 Created an ASP.NET Core 7.0 MVC application with the product "Bed" using Visual Studio 2022. Then we included individual user account authentication. Created a logo for our company. Ran the application successfully.
 
 1612
-Then we pushed our application to the GitHub account of Haider and he made his link public so that all the members of the team could access the project.
+Then we pushed our application to the GitHub account of Haidir and he made his link public so that all the members of the team could access the project.
 https://github.com/haidirstclair/DreamRestBeds
 
 1620
