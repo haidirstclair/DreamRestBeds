@@ -40,7 +40,11 @@ URL
 https://localhost:7094/Home/AboutUs
 
 1200
-We customized our project to include product images, and modifications of the default style, present in the project.
+We customized our project to include product images, and modifications of the default style, present in the project. We had an issue
+in inseerting an images. But we edited the SeedData.cs, and then deleted the contents from the table. Ran the program and it was
+successful.
+https://localhost:7094/Bads
+
 
 1230
 Added 10 products to the when seeding the database. Ran the application and found that it was successful.
