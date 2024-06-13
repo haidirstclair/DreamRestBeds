@@ -40,7 +40,7 @@ namespace DreamRestBeds.Models
                                 MaxLoad = 300,
                                 MattressLength = 200,
                                 MattressWidth = 160,
-                                PictureUrl = "https://example.com/images/dreamrest-queen.jpg",
+                                PictureUrl = "https://i5.walmartimages.com/asr/16226b92-7023-43e1-9006-e9c52a282398.b4be772b826c6a6ac210ce57ece25052.jpeg",
                                 SizeType = "Queen",
                                 Description = "A comfortable and stylish queen bed with a solid wood frame and memory foam mattress."
                             },
